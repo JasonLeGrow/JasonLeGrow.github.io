@@ -1,90 +1,945 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Jason LeGrow</title>
-	<meta name="description" content="">
-	<meta name="author" content="Jason LeGrow">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
 
-	<!-- HTML5 shim, for IE6-8 support of HTML elements -->
-	<!--[if lt IE 9]>
-		<script src="/theme/html5.js"></script>
-	<![endif]-->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-	<!-- Styles -->
-	<link href="/theme/bootstrap.min.css" rel="stylesheet">
-	<link href="/theme/local.css" rel="stylesheet">
-	<link href="/theme/pygments.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
 
-	<!-- Feeds -->
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+    href="/theme/pygments/github.min.css">
 
 
 
+    <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
 
-</head>
-<body>
-	<div class="topbar">
-	  <div class="topbar-inner">
-		<div class="container-fluid">
-		  <a class="brand" href="/">Jason LeGrow</a>
-			<ul class="nav">
-						<li><a href="/pages/Research.html">Research</a></li>
-						<li><a href="/pages/Contact.html">Contact</a></li>
-					<li ><a href="/category/data-visualization.html">Data Visualization</a></li>
-					<li ><a href="/category/math-4175-tools.html">Math 4175 Tools</a></li>
-			</ul>
-			<p class="pull-right"><a href="/archives.html">[archives]</a> <a href="/tags.html">[tags]</a></p>
-		</div>
-	  </div>
-	</div>
 
-	<div class="container-fluid">
-	  <div class="sidebar">
-		<div class="well">
-			<h3>Links</h3>
-			<ul>
-				<li><a href="https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-mathematics.html">University of Auckland Mathematics Department</a></li>
-				<li><a href="https://uwaterloo.ca/combinatorics-and-optimization/">Combinatorics and Optimization</a></li>
-				<li><a href="https://uwaterloo.ca/institute-for-quantum-computing/">Institue for Quantum Computing</a></li>
-			</ul>
-			<div class="social">
-			<h3>Social Media</h3>
-			<ul>
-				<li><a href="https://www.linkedin.com/in/jasonlegrow/">LinkedIn</a></li>
-			</ul>
-			</div>
-		</div>
-	  </div>
-	  <div class="content">
-<div class="page-header"><h1>Jason LeGrow <small>Jason LeGrow</small></h1></div>
-<div class='article'>
-<h2><a href="/vigenere-cipher.html">Vigenere Cipher</a></h2>
-	<div class="well small">Permalink: <a class="more" href="/vigenere-cipher.html">2020-08-10 00:00:00-04:00</a>
-by <a class="url fn" href="/author/jason-legrow.html">Jason LeGrow </a>
- in <a href="/category/math-4175-tools.html">Math 4175 Tools</a>
+
+
+
+
+
+
+ 
+
+    <meta name="author" content="Jason LeGrow" />
+    <meta name="description" content="" />
+  <meta property="og:site_name" content="Jason LeGrow"/>
+  <meta property="og:type" content="blog"/>
+  <meta property="og:title" content="Jason LeGrow"/>
+  <meta property="og:description" content=""/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content=""/>
+
+    <title>Jason LeGrow &ndash; Posts by Jason LeGrow:</title>
+
+  </head>
+  <body class="light-theme">
+    <aside>
+    <div>
+      <a href="/">
+	<img src="/theme/img/profile.png" alt="" title="">
+      </a>
+
+      <h1>
+	<a href="/"></a>
+      </h1>
+
+
+      <nav>
+      <ul class="list">
+
+
+	<li>
+	<a target="_self"
+	  href="/pages/Research.html#Research">
+	  Research
+	</a>
+	</li>
+	<li>
+	<a target="_self"
+	  href="/pages/Contact.html#Contact">
+	  Contact
+	</a>
+	</li>
+
+	<li ><a href="/category/data-visualization.html">Data Visualization</a></li>
+	<li ><a href="/category/math-4175-tools.html">Math 4175 Tools</a></li>
+
+	<li>
+	<a target="_self" href="https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-mathematics.html" >University of Auckland Mathematics Department</a>
+	</li>
+	<li>
+	<a target="_self" href="https://uwaterloo.ca/combinatorics-and-optimization/" >Combinatorics and Optimization</a>
+	</li>
+	<li>
+	<a target="_self" href="https://uwaterloo.ca/institute-for-quantum-computing/" >Institue for Quantum Computing</a>
+	</li>
+      </ul>
+      </nav>
+
+      <ul class="social">
+	<li>
+	<a  class="sc-LinkedIn" href="https://www.linkedin.com/in/jasonlegrow/" target="_blank">
+	  <i class="fab fa-LinkedIn"></i>
+	</a>
+	</li>
+      </ul>
+    </div>
+
+    </aside>
+    <main>
+
+
+
+
+<article>
+  <header>
+    <h2><a href="/vigenere-cipher.html#vigenere-cipher">Vigenere Cipher</a></h2>
+    <p>
+      Posted on Mon 10 August 2020 in <a href="/category/math-4175-tools.html">Math 4175 Tools</a>
+
+
+    </p>
+  </header>
+  <div>
+      <div><p class="first">Tool for analysis/encryption/decryption of the Vigenere cipher</p>
+<div class="last"><!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table {padding: 15px; border-spacing: 30px; text-align: right; table-layout: fixed; margin-bottom:5mm;}
+      table, th, td { border: 1px solid black; border-collapse: collapse; padding: 3px; }
+      p {margin-bottom:5mm;}
+      .inlineDiv {display:inline-block; padding:10px; vertical-align:top;}
+    </style>
+  </head>
+
+  <body style="text-align:left;">
+    <div>
+      <h1 style="color:blue;">  
+	Math 4175 Vigen&egrave;re Cipher Tool
+      </h1>
+      <p>
+      Enter your text in the box below, and click the "Analyze" button to get the letter frequency distribution. <br>
+
+      You can also enter a key, and use it to encrypt or decrypt your text.
+      </p>
+
+      <p>
+      <h2>Text</h2>
+      <div class = "inlineDiv">
+	<b> Input </b><br>
+	<textarea id="myText" rows="20" cols = "75">Enter your text here!</textarea>
+	<br>
+	<button type="button" onclick="Analyze()">Analyze</button> <span id="analysisStatus"> </span>
+      </div>
+      <div class = "inlineDiv">
+	<b> Output </b><br>
+	<textarea id="outText" rows="20" cols = "75">Output appears here!</textarea>
+      </div>
+      </p>
+      <p>
+      <h2>Key</h2>
+      <div class = "inlineDiv">
+	<input type="text" id="Key" value="A"><br>
+	<button type="button" onclick="Encrypt()">Encrypt</button>
+	<button type="button" onclick="Decrypt()">Decrypt</button>
+      </div>
+      </p>
+
+      <p id = "AnalysisParagraph"> 
+      <h2>Letter Frequency Analysis</h2>
+      <b> Key length 1 </b>
+      <table id = "FrequencyAnalysis1", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+
+      <b> Key length 2 </b>
+      <table id = "FrequencyAnalysis2", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 3 </b>
+      <table id = "FrequencyAnalysis3", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 4 </b>
+      <table id = "FrequencyAnalysis4", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 5 </b>
+      <table id = "FrequencyAnalysis5", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 6 </b>
+      <table id = "FrequencyAnalysis6", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 7 </b>
+      <table id = "FrequencyAnalysis7", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 8 </b>
+      <table id = "FrequencyAnalysis8", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 9 </b>
+      <table id = "FrequencyAnalysis9", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 10 </b>
+      <table id = "FrequencyAnalysis10", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 11 </b>
+      <table id = "FrequencyAnalysis11", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+      <b> Key length 12 </b>
+      <table id = "FrequencyAnalysis12", width = "100%", align = left >
+	<tr>
+	  <!--	<th>Letter:</th> -->
+	  <th>A</th> <th>B</th> <th>C</th> <th>D</th> <th>E</th> <th>F</th> <th>G</th> <th>H</th> <th>I</th> <th>J</th>
+	  <th>K</th> <th>L</th> <th>M</th> <th>N</th> <th>O</th> <th>P</th> <th>Q</th> <th>R</th> <th>S</th> <th>T</th>
+	  <th>U</th> <th>V</th> <th>W</th> <th>X</th> <th>Y</th> <th>Z</th>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+	<tr>
+	  <!--	<th>Count:</th> -->
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	  <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td> <td>0</td>
+	</tr>
+      </table><br>
+
+      </p>
+      <br>
+    </div>
+
+    <script>
+
+      const alphabetLower = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+      const alphabetUpper = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+
+      function EncryptChar(x,k) {
+	// Encrypts a single character x using Caesar cipher with key k
+	if (alphabetUpper.indexOf(x) == -1 || alphabetUpper.indexOf(k) == -1) {
+	  return x;
+	}
+	return alphabetUpper[ ( alphabetUpper.indexOf(x) + alphabetUpper.indexOf(k) ) % alphabetUpper.length ];
+      }
+
+      function DecryptChar(x,k) {
+	// Decrypts a single character x using Caesar cipher with key k
+	if (alphabetLower.indexOf(x) == -1 || alphabetLower.indexOf(k) == -1) {
+	  return x;
+	}
+	return alphabetLower[ ( alphabetLower.indexOf(x) - alphabetLower.indexOf(k) + alphabetLower.length ) % alphabetLower.length ];
+      }
+
+      function countOccurences(arr, x) {
+	// Counts the occurences of the character x in the array arr
+	return arr.filter( z => z == x ).length
+      }
+
+      function isAlphabetic(s) {
+	// Determines whether a string is alphabetic (that is, if all its characters are letters of the Latin alphabet)
+	return s.match("^[a-zA-Z]+$");
+      }
+
+      function modularSlice(arr,n,j) {
+	// Returns the slice of arr corresponding to indices i congruent to j mod n
+	var out = [];
+	for (var i = 0 ; i < arr.length ; i++)
+	{
+	  if (i % n == j) 
+	  {
+	    out.push(arr[i]);
+	  }
+	}
+	return out;
+      }
+
+      function frequencyTable(t,n) {
+	// Generates the frequency table for arr; with one row for each congruence class of index modulo n
+	targetTable = document.getElementById("FrequencyAnalysis" + (n).toString())
+	//console.log("FrequencyAnalysis" + (n).toString())
+
+
+	for (var j = 0; j < n; j++){
+	  for (var i = 0; i < alphabetLower.length; i++){
+	    targetTable.rows[j+1].cells[i].innerHTML = countOccurences(modularSlice(t.toLowerCase().split('').filter(x => isAlphabetic(x)), n, j), alphabetLower[i]);
+	  }
+	}
+      }
+
+      function modularSlices(arr, n){
+	// Returns all modular Slices of the array arr modulo n.
+	// Faster than running modularSlice n times, because it only makes one pass over the arr
+
+	var out = [];
+	for (var i = 0; i < n; i ++)
+	{
+	  out.push(new Array(alphabetLower.length).fill(0));
+	}
+
+	for (i = 0; i < arr.length; i++)
+	{
+	  out[i % n][alphabetLower.indexOf(arr[i])] = out[i % n][alphabetLower.indexOf(arr[i])] + 1;
+	}
+	return out
+      }
+
+      function fastFrequencyTable(t, n){
+	targetTable = document.getElementById("FrequencyAnalysis" + (n).toString())
+
+	counts = modularSlices(t.toLowerCase().split('').filter(x => isAlphabetic(x)), n);
+
+	for (var j = 0; j < n; j++){
+	  for (var i = 0; i < alphabetLower.length; i++){
+	    targetTable.rows[j+1].cells[i].innerHTML = counts[j][i];
+	  }
+	}
+
+      }
+
+
+      function Encrypt() {
+	// Encrypts the user's input plaintext using the Vigenere cipher with the user's input key
+	var t = document.getElementById("myText").value.toUpperCase();
+	var k = document.getElementById("Key").value.toUpperCase();
+
+	if (!isAlphabetic(k)) {
+	  document.getElementById("outText").innerHTML = "Invalid key!";
+	  return 0;
+	}
+
+	var outArr = t.toUpperCase().split('')
+	var j = 0
+	for (var i = 0; i < outArr.length; i++){
+	  if (isAlphabetic(outArr[i]))
+	  {
+	    outArr[i] = EncryptChar(outArr[i], k[j]);
+	    j = (j + 1) % k.length;
+	  }
+	}
+	document.getElementById("outText").innerHTML = outArr.join('');
+      }
+
+      function Decrypt() {
+	// Decrypts the user's input ciphertext using the Vigenere cipher with the user's input key
+	var t = document.getElementById("myText").value.toLowerCase();
+	var k = document.getElementById("Key").value.toLowerCase();
+
+	if (!isAlphabetic(k)) {
+	  document.getElementById("outText").innerHTML = "Invalid key!";
+	  return 0;
+	}
+
+	var outArr = t.toLowerCase().split('')
+	var j = 0
+	for (var i = 0; i < outArr.length; i++){
+	  if (isAlphabetic(outArr[i]))
+	  {
+	    outArr[i] = DecryptChar(outArr[i], k[j]);
+	    j = (j + 1) % k.length;
+	  }
+	}
+	document.getElementById("outText").innerHTML = outArr.join('');
+      }
+
+      function Analyze() {
+	// Returns various frequency tables (useful for cryptanalysis of the Vigenere cipher) for the user's input text
+	var t = document.getElementById("myText").value;
+	var lb = 1;
+	var ub = 12;
+
+	for (var i = lb ; i < ub + 1; i++){
+	  fastFrequencyTable(t,i)
+	} 
+      }
+    </script>
+  </body>
+
+</html>
+</div></div>
+        <br>
+        <a class="btn"
+           href="/vigenere-cipher.html#vigenere-cipher">
+          Continue reading
+        </a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/covid-19.html#covid-19">COVID-19</a></h2>
+    <p>
+      Posted on Fri 05 June 2020 in <a href="/category/data-visualization.html">Data Visualization</a>
+
+
+    </p>
+  </header>
+  <div>
+      <div><p class="first last">Visualization of COVID-19 cases in Ontario.</p>
 </div>
-	<div class="summary"><p class="first last">Tool for analysis/encryption/decryption of the Vigenere cipher</p>
- <a class="btn primary xsmall" href="/vigenere-cipher.html">more…</a>
-	</div>
-</div>	
-<div class='article'>
-<h2><a href="/covid-19.html">COVID-19</a></h2>
-	<div class="well small">Permalink: <a class="more" href="/covid-19.html">2020-06-05 00:00:00-04:00</a>
-by <a class="url fn" href="/author/jason-legrow.html">Jason LeGrow </a>
- in <a href="/category/data-visualization.html">Data Visualization</a>
-</div>
-	<div class="summary"><p class="first last">Visualization of COVID-19 cases in Ontario.</p>
- <a class="btn primary xsmall" href="/covid-19.html">more…</a>
-	</div>
-</div>	
+        <br>
+        <a class="btn"
+           href="/covid-19.html#covid-19">
+          Continue reading
+        </a>
+  </div>
+</article>
 
 
-		<footer>
-		  <p>Powered by <a href="http://getpelican.com/">Pelican</a>. Theme based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
-		  <p>&copy; Jason LeGrow</p>
-		</footer>
-	  </div>
 
-	</div>
-</body>
+
+    <footer>
+<p>&copy;  </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p>    </footer>
+    </main>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Jason LeGrow ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+
+  </body>
 </html>
