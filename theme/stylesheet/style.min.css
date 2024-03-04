@@ -7,12 +7,13 @@ h4{font-size:1.36em}
 h5{font-size:1.2em}
 h6{font-size:1.1em}
 body{margin:0;padding:0;background-color:#FFFFFF;;color:#242121;font-family:Source Sans Pro,Roboto,Open Sans,Liberation Sans,DejaVu Sans,Verdana,Helvetica,Arial,sans-serif;font-size:1.02em;line-height:1.2em}
-a{color:#d9411e;text-decoration:none}
+/* a{color:#d9411e;text-decoration:none} */
+a{color:#d9411e;text-decoration-thickness:0.5px}
 a:hover{color:#ff5a09}
 hr{color:#eee;background-color:#eee;height:1px;border:none;margin-top:40px;margin-bottom:40px}
 img{max-width:100%}
 aside{background-color:#861f41;text-align:center}
-aside,aside a{color:#fff}
+aside,aside a{color:#fff;text-decoration:none}
 aside a:hover{color:#D7D2CB}
 aside div{padding:20px;margin:0}
 aside div img{border-radius:50%;max-width:140px}
