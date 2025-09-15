@@ -6,7 +6,7 @@ h3{font-size:1.6em}
 h4{font-size:1.36em}
 h5{font-size:1.2em}
 h6{font-size:1.1em}
-body{margin:0;padding:0;background-color:#FFFFFF;;color:#242121;font-family:Source Sans Pro,Roboto,Open Sans,Liberation Sans,DejaVu Sans,Verdana,Helvetica,Arial,sans-serif;font-size:1.02em;line-height:1.2em}
+body{margin:0;padding:0;background-color:#FFFFFF;;color:#242121;font-family:Source Sans Pro,Roboto,Open Sans,Liberation Sans,DejaVu Sans,Verdana,Helvetica,Arial,sans-serif;font-size:1.125em;line-height:1.35em}
 /* a{color:#d9411e;text-decoration:none} */
 a{color:#d9411e;text-decoration-thickness:0.5px}
 a:hover{color:#ff5a09}
@@ -103,7 +103,7 @@ ul.social a.sc-lastfm{color:#d92323}
   aside div nav ul li{padding:0!important;display:block}
   aside div ul.social{padding-top:32px}
   main{height:100vh;position:relative;padding-left:25vw}
-  main article{max-width:720px}
+  main article{max-width:1080px}
   main article ul.list li{padding:2px}
   .ads-aside{height:250px}
   .ads-responsive{height:90px}
